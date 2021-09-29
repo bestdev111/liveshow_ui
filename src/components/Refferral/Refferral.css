@@ -1,0 +1,130 @@
+.refferral-sec .refer-box{
+    border-top: 2px solid rgba(0, 0, 0, 0.08);
+    border-right: 2px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    border-left-color: #653bc8!important;
+    background-color: #ffffff;
+    border-left: 4px solid transparent;
+    padding: 30px 30px;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+}
+
+.refferral-sec .refer-box .item-arrow {
+    left: -12px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.refferral-sec .refer-box .item-arrow::before{
+    height: 20px;
+    left: 0;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #653bc8;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.refferral-sec .refer-box h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.refferral-sec .refer-box p {
+    font-weight: 400;
+    color: #6f6f6f;
+    line-height: 22px;
+    font-size: 0.9em;
+    text-rendering: optimizeLegibility;
+}
+
+.refferral-sec .refer-box p span{
+    padding-left: 1em;
+    font-weight: 800;
+    color: 	#008000;
+}
+
+.refferral-sec .refer-box h4 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.refferral-sec .refer-box .form-control{
+    font-size: 1.2em;
+    height: 50px;
+    background: linear-gradient(-19deg, #4776e6 10%, #8e54e9);
+    color: #fff;
+    font-weight: 600;
+}
+
+.refferral-sec .refer-box .form-control::placeholder {
+    color: #ffffff;
+}
+
+.refferral-sec .refer-box .form-group{
+    margin-bottom: 0;
+}
+
+.refer-right-box{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+    margin-top: 30px;
+}
+
+.refer-right-box .refer-right-header{
+    background: linear-gradient(-19deg, #4776e6 10%, #8e54e9);
+    padding:1em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.refer-right-box .refer-right-header h4{
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+
+}
+
+.refer-right-box .refer-right-body{
+    padding: 1em;
+}
+
+.refer-table{
+    border-top: 2px solid rgba(0, 0, 0, 0.08);
+    border-right: 2px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    border-left-color: #653bc8!important;
+    background-color: #ffffff;
+    border-left: 4px solid transparent;
+    padding: 30px 30px;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+}
+
+
+.refer-table .user-img {
+    width: 4em;
+    height: 4em;
+}
+
+.refer-table h4{
+    margin: 0;
+    padding: 1em 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.refer-table .align-right {
+    text-align: right;
+    padding: 0.5em 0;
+}

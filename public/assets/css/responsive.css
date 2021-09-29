@@ -1,0 +1,1502 @@
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    /* Extra Small Devices, Phones */ 
+@media screen  and (max-width: 479px) {
+.user-profile {
+	bottom: 0;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	right: 0;
+	width: 100%;
+}
+
+.resp-text-center{
+	text-align:center;
+}
+
+.resp-text-center .desc{
+	margin-bottom: 10px;
+}
+
+.livetv-view img{
+	margin-right: 0;
+}
+
+.video-right-btn {
+	display: inline-block;
+	left: 15px;
+	position: relative;
+	right: 0;
+	top: 10px;
+	width: auto;
+}
+.video-content {
+	display: inline-block;
+	padding: 20px;
+	width: auto;
+}
+.video-right-btn .btn-br {
+	margin: 10px 0 0 5px;
+	padding: 5px 15px;
+	width: auto;
+}
+.live-video-box {
+	margin-top: 0px;
+}
+.top-spacing{
+	margin-top: 60px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+}
+.section-spacing{
+	padding: 15px
+}
+.section-spacing1{
+	padding: 15px 15px 300px 15px;
+}
+/* .bottomheight{
+	height: 50px;
+} */
+.sec-padding{
+	padding: 20px 30px;
+}
+.left-right-padding{
+	padding: 0px 0px 0 0px;
+}
+.card {
+    padding: 15px 30px 15px 15px;
+}
+.padd{
+	padding: 20px;
+}
+.google{
+	text-align: center;
+}
+.facebook{
+	margin-top: 20px;
+	text-align: center;
+}
+.ribbon{
+	margin-top:-21px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 5px;
+	width: 60px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 10px !important;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.modal-body1{
+	padding: 10px 20px 25px 20px;
+}
+.left{
+	float: left !important;
+}
+.top1{
+	margin-top:0;
+}
+.nav-tabs.home-sec-tab>li {
+	display: block;
+    width: 100%;
+    text-align: center;
+	margin-bottom: 1em;
+}
+.card {
+    padding: 20px 30px 15px 15px;
+}
+.footer {
+	padding: 2em 4em;
+}
+.broad-cast-public .small-padding {
+    padding: 0 1em;
+}
+.subscriptions-price-plan .small-padding {
+    padding: 0px 1em;
+}
+.public-video-header {
+	font-size: 1em;
+}
+.myplans .small-padding {
+    padding: 0 0em;
+}
+.myplans .myplan-details {
+	height: 100%;
+	padding-left: 1.5em;
+	overflow: hidden;
+}
+.myplans .sub-desc {
+	text-align: left;
+}
+.add-card .addcard-form {
+	padding: 10px;
+	height: 300px;
+	padding-top: 2em;
+}
+.add-card .payment-card-img {
+	height: 200px;
+}
+.add-card .addcard-bg-overlay { 
+	height: 300px;
+}
+.add-card .addcard-bgimg {
+	height: 300px;
+}
+.followers .small-padding {
+    padding: 0 0em;
+}
+.following .small-padding {
+    padding: 0px 1em;
+}
+.profile-tab {
+	padding: 5px;
+}
+.top-bottom-spacing {
+	padding: 40px 20px;
+	padding-bottom: 0;
+}
+.search-results .small-padding {
+    padding: 0 0em;
+}
+.redeems-promo .redeems-sec {
+	margin-bottom: 20px;
+}
+.resp-left {
+	text-align: left;
+}
+.vodlist .small-padding {
+    padding: 0px 0em;
+}
+.show-more-btn {
+	margin-top: 20px;
+}
+.resp-zero {
+	height: unset;
+}
+.newtable {
+    overflow: scroll;
+}
+.resp-center {
+	text-align: center;
+}
+.livetv .small-padding {
+    padding: 0 0em;
+}
+.livetv-view .small-padding {
+    padding: 0 0em;
+}
+.upload-img-vido .small-padding {
+    padding: 0 0em;
+}
+.upload-img-vido .user-profile1 {
+    width: 205px;
+    height: 200px;
+}
+.upload-img-vido .upload-form {
+    padding: 1.5em;
+}
+.upload-img-vido .user-profile1 {
+	margin: 0.8em 0;
+}
+.notification .small-padding {
+    padding: 0 0em;
+}
+.streamed-videos .small-padding {
+    padding: 0 0em;
+}
+.vodhistory .small-padding {
+    padding: 0 0em;
+}
+.vodstreaming .small-padding {
+    padding: 0 0em;
+}
+.vodstreaming .notify-close-icon {
+	position: absolute;
+	top: -420px;
+    right: 15px;
+}
+.vodstreaming .notify-img img {
+	width: 12em;
+}
+.vodstreaming .notify-img img { 
+	margin-bottom: 2em;
+}
+.upload-img-vido .small-padding {
+    padding: 0 1em;
+}
+.upload-img-vido .pt-87 {
+    padding-top: 1.5em;
+}
+.upload-img-vido .pt-86 {
+    padding-top: 1em;
+}
+.upload-img-vido [type="file"]+label {
+	padding: 1rem 45px
+}
+.group .small-padding {
+    padding: 0 0em;
+}
+.margin-top-xl {
+    margin-top: 2.5em;
+}
+.group .notify-img img { 
+	margin-bottom: 2em;
+}
+.group .notify-content {
+    padding: 0em 0;
+}
+.create-group .small-padding {
+    padding: 0 0em;
+}
+.vodrevenue .small-padding {
+    padding: 0px 0em;
+}
+.view-group .small-padding {
+    padding: 0 0em;
+}
+.view-group .btn.btn-group {
+	margin-bottom: 2em;
+}
+.view-group .notify-content {
+	padding-left: 5em;
+}
+.view-group .notify-close-icon {
+	position: absolute;
+	top:-55px;
+	right:10px;
+}
+.view-group .notify-content h4 {
+	width: 80%;
+	font-size: 0.8em;
+}
+.invoice .small-padding {
+    padding: 0 0em;
+}
+.invoice .invoice-image img {
+	max-width: 10em;
+	margin-bottom: 2em;
+}
+.display-flex-row {
+	display: block
+}
+.public-video-header {
+	width: 90%;
+}
+.no-data-found-img img {
+    max-width: 14em;
+}
+.notification-bell.hidden-xs {
+	display: block!important;
+}
+.resp-mrg-btm {
+	margin-bottom: 2em;
+}
+
+.resp-mrg-btm-xs {
+	margin-bottom: 1em;
+}
+.login-modal-display .btn-login {
+	/* width: 310px; */
+	width:100%;
+	padding: 0.5em 1em !important;
+	margin-left: 0;
+}
+.register-modal-display .btn-register {
+	/* width: 310px; */
+	width:100%;
+	padding: 0.5em 1em !important;
+	margin-left: 0;
+}
+
+.header-search{
+	width:auto;
+	max-width: 100%;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 14px;
+    font-weight: 500;
+}
+.notification-bell .dropdown-menu::before {
+	display: none;
+}
+
+.nav.nav-tabs.home-sec-tab li a{
+	padding: 10px 0px;
+}
+/* .login-modal-display .streamer-box {
+	padding: 0;
+	max-width: 10em;
+	margin:unset;
+}
+.login-modal-display .viewer-box {
+	padding: 0;
+	max-width: 10em;
+	margin:unset;
+} */
+.login-modal .modal-body .header-content h5 { 
+	font-size: 1em;
+}
+.login-modal .modal-body .header-content p {
+	font-size: 0.85em;
+}
+.login-modal .modal-body .modal-btn .btn-login {
+	padding: 0.4em 1em !important;
+	font-weight: 700;
+}
+.forgot-password-btn {
+	font-weight: 700;	
+}
+.navbar-nav .open .dropdown-menu {
+	background-color: #fff!important;
+	margin-top: 1em;
+}
+.login-modal-display .login-modal-menu {
+	min-width: 280px;
+}
+.login-modal-display .streamer-img {
+	padding: 0em; 
+}
+.login-modal-display .streamer-img {
+	padding: 0em; 
+}
+.login-modal .divider{
+	display: none;
+}
+.login-modal .modal-body {
+    padding: 1em 1em;
+}
+.login-modal .Spacer-10 {
+	height: unset;
+}
+.login-modal .modal-body .form-control {
+	padding: 1.3em 2em;
+}
+#signup-streamer .modal-body {
+    padding: 1em 1em;
+}
+.register-modal-display .register-modal-menu {
+	min-width:280px;
+}
+#signup-streamer .divider {
+	display: none;
+}
+.register-modal-display .streamer-img {
+	padding: 0em;
+}
+#signup-streamer .Spacer-10 {
+	height: unset;
+}
+#signup-streamer .modal-body .header-content h5 {
+	font-size: 1em;
+}
+#signup-streamer .modal-body .header-content p {
+	font-size: 0.85em;
+}
+.modal-header {
+	padding: 0px;
+}
+#signup-streamer .modal-body .form-control {
+	padding: 1.3em 2em;
+}
+#signup-streamer .modal-body .modal-btn .btn-register {
+	padding: 0.4em 1em !important;
+	font-weight: 700;
+}
+.navbar-right img {
+	width: 2em;
+}
+.login-modal-display .login-modal-menu .login-info { 
+	text-align: center;
+	padding-top: 0;
+}
+.register-modal-display .register-modal-menu .register-info {
+	text-align: center;
+	padding-top: 0;
+}
+.login-modal-display .streamer-box p {
+	padding-top: 0;
+}
+.login-modal-display .viewer-box p {
+	padding-top: 0;
+}
+.register-modal-display .streamer-box p {
+	padding-top: 0;
+}
+.register-modal-display .viewer-box p {
+	padding-top: 0;
+}
+.ribbon{
+	/* margin-top:-39px; */
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	transform: translate(0px, 153px);
+}
+.ribbon-1 {
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	transform: translate(0px, -31px);
+	position: absolute;
+}
+.current-amount {
+	right: 20px;
+	bottom: 20px;
+}
+.h4-s {
+	font-size: 16px;
+}
+.h5-s {
+	font-size: 14px;
+}
+.input__field--hoshi {
+	overflow: auto;
+    white-space: nowrap;
+}
+/* #image_upload .form-control {
+	padding: 1.3em 2em;
+} */
+.invoice .pay-btn { 
+	width: 100%;
+}
+.invoice .invoice-box .invoice-details .invoice-body {
+	padding-left: 0;
+}
+.half-invoice {
+	width: 90%;
+}
+.broadcast-video .btn-br { 
+	margin: 10px 10px 10px 0px;
+}
+.btn1 { 
+	margin-bottom: 1em;
+	margin-right: 5px;
+	width:85%;
+}
+.vodlist input[type="text"]:focus, .vodlist input[type="text"]:hover {
+	width: 220px;
+}
+.vodlist #wrap {
+	margin: -15px 15px;
+}
+.view-group .title {
+	text-align: center;
+}
+.view-group .desc {
+	text-align: center;
+}
+.login-modal-display .viewer-box .btn-signin {
+	position:relative;
+	bottom: 0;
+}
+.login-modal-display .streamer-box .btn-signin {
+	position:relative;
+	bottom: 0;
+}
+.login-modal-display .streamer-box {
+	min-height: auto;
+}
+.login-modal-display .viewer-box {
+	min-height: auto;
+}
+
+.register-modal-display .streamer-box .btn-signup {
+	position:relative;
+	bottom: 0;
+}
+
+.register-modal-display .viewer-box .btn-signup{
+	position:relative;
+	bottom: 0;
+}
+
+.register-modal-display .streamer-box {
+	min-height: auto;
+}
+.register-modal-display .viewer-box {
+	min-height: auto;
+}
+.resp-text-center{
+	text-align: center;
+}
+.live-video-box .livetv-view img{
+	margin-right: 0;
+}
+.livetv-view .desc{
+	margin-bottom: 10px!important;
+}
+.livetv input[type="text"]{
+	transition: unset;
+}
+.search-content-box {
+	min-width: 320px;
+    width: 0;
+    left: -450px;
+}
+.userlist-new{
+	padding-bottom: 2em;
+	border-bottom:1px solid #eee;
+}
+.width-260{
+	width:200px;
+}
+.refer-table .align-right{
+	text-align: left!important;
+}
+.refferral-sec .refer-box{
+	margin-top: 0!important;
+}
+.refferral-sec .refer-box .form-control{
+	font-size: 1em!important;
+}
+.refer-table h4{
+	padding: 0.5em 0!important;
+    font-size: 1em!important;
+}
+.refer-table{
+	margin-bottom: 1em!important;
+}
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+.refer-table .align-right{
+	text-align: left!important;
+}
+.refferral-sec .refer-box .form-control{
+	font-size: 1em!important;
+}
+.refferral-sec .refer-box{
+	margin-top: 0!important;
+}
+.refer-table{
+	margin-bottom: 1em!important;
+}
+.refer-table h4{
+	padding: 0.5em 0!important;
+    font-size: 1em!important;
+}
+.login-modal-display .btn-login {
+	width:100%;
+	padding: 0.5em 1em !important;
+	margin-left: 0;
+}
+.register-modal-display .btn-register {
+	width:100%;
+	padding: 0.5em 1em !important;
+	margin-left: 0;
+}
+.header-search{
+	max-width: 100%;
+	width: auto;
+	margin-bottom: 0;
+}
+.resp-text-center{
+	text-align: center;
+}
+
+.resp-mrg-btm {
+	margin-bottom: 2em;
+}
+
+.resp-mrg-btm-xs {
+	margin-bottom: 1em;
+}
+.user-profile .text-right{
+	text-align: center;
+}
+.livetv-view img{
+	margin-right: 0;
+}
+.livetv-view .desc{
+	margin-bottom: 10px!important;
+}
+.livetv input[type="text"]{
+	transition: unset;
+}
+.navbar-nav .open .dropdown-menu {
+    background-color: #fff!important;
+	margin-bottom: 2em;
+	text-align: center;
+}
+.notification-bell .dropdown-menu::before{
+	display: none;
+}
+.navbar-right img{
+	margin-top: 0;
+}
+.resp-mrg-btm{
+	margin-bottom: 0;
+}
+.login-modal-display .login-modal-menu {
+    min-width: 280px;
+}
+.login-modal-display .streamer-box{
+	max-width: 100%;
+	min-height: 270px;
+}
+.login-modal-display .viewer-box{
+	max-width: 100%;
+	min-height: 270px;
+}
+.login-modal-display .streamer-img{
+	padding:0;
+}
+.login-modal-display .streamer-box .btn-signin{
+	position: relative;
+	bottom: 0;
+}
+.login-modal-display .viewer-box .btn-signin{
+	position: relative;
+	bottom: 0;
+}
+.register-modal-display .register-modal-menu {
+	min-width: 280px;
+	margin-top:2em!important;
+}
+.register-modal-display .streamer-box{
+	max-width: 100%;
+	min-height: 270px;
+}
+.register-modal-display .viewer-box{
+	max-width: 100%;
+	min-height: 270px;
+}
+.register-modal-display .streamer-img{
+	padding:0;
+}
+.register-modal-display .streamer-box .btn-signup{
+	position: relative;
+	bottom: 0;
+}
+.register-modal-display .viewer-box .btn-signup{
+	position: relative;
+	bottom: 0;
+}
+.login-modal .divider{
+	display: none;
+}
+#signup-streamer .divider{
+	display: none;
+}
+.search-content-box {
+	min-width: 420px;
+    width: 0;
+    left: -425px;
+}
+.userlist-new{
+	padding-bottom: 2em;
+	border-bottom:1px solid #eee;
+}
+.btn1 { 
+	margin-bottom: 1em;
+}
+.h4-s {
+	font-size: 16px;
+}
+.h5-s {
+	font-size: 14px;
+}
+.video-right-btn {
+    display: inline-block;
+    left: 15px;
+    position: relative;
+    right: 0;
+    top: 10px;
+    width: auto;
+}
+.live-video-box {
+	margin-top: 0px;
+}
+.top-spacing{
+	margin-top: 60px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 70%;
+}
+.section-spacing{
+	padding: 30px
+}
+.section-spacing1{
+	padding: 180px 30px;
+}
+/* .bottomheight{
+	height: 80px;
+} */
+.sec-padding{
+	padding: 15px 30px;
+}
+.left-right-padding{
+	padding: 0px 0px 0px 0px;
+}
+.card {
+    padding: 40px 55px 40px 40px;
+}
+.padd{
+	padding: 20px;
+}
+.google{
+	text-align: center
+}
+.facebook{
+	margin-top: 20px;
+	text-align: center
+}
+.ribbon{
+	margin-top:-24px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 5px;
+	font-size: 10px !important;
+	width: 60px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 12px !important;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.left{
+	float: left !important;
+}
+.top1{
+	margin-top:0;
+}
+.nav-tabs.home-sec-tab>li {
+	display: block;
+    width: 100%;
+    text-align: center;
+	margin-bottom: 1em;
+}
+.card {
+    padding: 20px 30px 15px 15px;
+}
+.footer {
+	padding: 2em 5em;
+}
+.broad-cast-public .small-padding {
+    padding: 0 1em;
+}
+.subscriptions-price-plan .small-padding {
+    padding: 0px 1em;
+}
+.public-video-header {
+	font-size: 1em;
+}
+.myplans .small-padding {
+    padding: 0 0em;
+}
+.myplans .myplan-details {
+	height: 290px;
+	padding-left: 1.5em;
+}
+.myplans .sub-desc {
+	text-align: left;
+}
+.add-card .addcard-form {
+	padding: 10px;
+	height: 300px;
+	padding-top: 2em;
+}
+.add-card .payment-card-img {
+	height: 200px;
+}
+.add-card .addcard-bg-overlay { 
+	height: 300px;
+}
+.add-card .addcard-bgimg {
+	height: 300px;
+}
+.followers .small-padding {
+    padding: 0 0em;
+}
+.following .small-padding {
+    padding: 0px 1em;
+}
+.profile-tab {
+	padding: 5px;
+}
+.top-bottom-spacing {
+	padding: 40px 10px;
+}
+.search-results .small-padding {
+    padding: 0 0em;
+}
+.redeems-promo .redeems-sec {
+	margin-bottom: 20px;
+}
+.vodlist .small-padding {
+    padding: 0px 0em;
+}
+.newtable {
+    overflow: scroll;
+}
+.resp-center {
+	text-align: center;
+}
+.livetv .small-padding {
+    padding: 0 0em;
+}
+.livetv-view .small-padding {
+    padding: 0 0em;
+}
+.upload-img-vido .small-padding {
+    padding: 0 0em;
+}
+.upload-img-vido .user-profile1 {
+    width: 205px;
+    height: 200px;
+}
+.upload-img-vido .upload-form {
+    padding: 1.5em;
+}
+.upload-img-vido .user-profile1 {
+	margin: 0.8em 0;
+}
+.notification .small-padding {
+    padding: 0 0em;
+}
+.streamed-videos .small-padding {
+    padding: 0 0em;
+}
+.vodhistory .small-padding {
+    padding: 0 0em;
+}
+.vodstreaming .small-padding {
+    padding: 0 0em;
+}
+.vodstreaming .notify-close-icon {
+	position: absolute;
+	top: -420px;
+    right: 15px;
+}
+.vodstreaming .notify-img img {
+	width: 12em;
+}
+.vodstreaming .notify-img img { 
+	margin-bottom: 2em;
+}
+.upload-img-vido .small-padding {
+    padding: 0 1em;
+}
+.upload-img-vido .pt-87 {
+    padding-top: 1.5em;
+}
+.group .small-padding {
+    padding: 0 0em;
+}
+.margin-top-xl {
+    margin-top: 2.5em;
+}
+.group .notify-img img { 
+	margin-bottom: 2em;
+}
+.group .notify-content {
+    padding: 0em 0;
+}
+.create-group .small-padding {
+    padding: 0 0em;
+}
+.vodrevenue .small-padding {
+    padding: 0px 0em;
+}
+.invoice .small-padding {
+    padding: 0 0em;
+}
+.display-flex-row {
+	display: block
+}
+.no-data-found-img img {
+    max-width: 14em;
+}
+.hidden-xs {
+	display: block!important;
+}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	.resp-mrg-btm-md {
+		margin-bottom: 2em;
+	}
+.btn1 { 
+	margin-bottom: 1em;
+}
+.top-spacing{
+	margin-top: 70px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 60%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+/* .bottomheight{
+	height: 70px;
+} */
+.sec-padding{
+	padding: 30px 125px;
+}
+.left-right-padding{
+	padding: 0px 60px 0 45px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	margin-top:-39px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+.nav-tabs.home-sec-tab>li {
+	padding: 0em 1.78em;
+}
+.watch-btn-user .btn-br {
+	float: none;
+	margin-left: 4em;
+}
+.profile-user-img img {
+    width: 12em;
+	height: 12em;
+}
+.stnw-StatLabel {
+	font-size: 10px;
+}
+.stnw-StatValue {
+	font-size: 18px;
+}
+.video-content {
+	width: 80%;
+}
+.sec-padding {
+    padding: 30px 50px;
+}
+.footer {
+	padding: 2em 5em;
+}
+.resp-width-full {
+	width: 100%;
+}
+.myplans .myplan-details {
+	padding-left: 25px;
+}
+.myplans .space-myplans {
+	margin: 20px 0 0 0;
+}
+.spacing {
+    padding: 10px 12px;
+}
+.h4-s {
+    font-size: 12px;
+}
+.btn-follow {
+	font-size: 11px;
+}
+.top-bottom-spacing {
+	padding: 40px 30px;
+	padding-right: 70px;
+}
+.overlay1 {
+	padding-left: 0;
+}
+.profile-tab {
+	padding-left: 0;
+	padding: 16px;
+}
+.nav-tabs>li>a {
+	font-size: 0.8em;
+	padding: 10px 20px;
+}
+.gallery img {
+	margin: 1em auto;
+}
+.search-results .small-padding {
+    padding: 0 1em;
+}
+.redeems-promo .redeems-sec {
+	margin-bottom: 20px;
+}
+.table-default th {
+	white-space: nowrap;
+}
+.vodlist .small-padding {
+    padding: 0px 1em;
+}
+.newtable {
+    overflow: scroll;
+}
+.resp-center {
+	text-align: center;
+}
+.btn2 {
+	padding: 5px 10px;
+} 
+.upload-img-vido .user-profile1 {
+	margin: 0.8em 0;
+}
+.notification .small-padding {
+    padding: 0 2em;
+}
+.streamed-videos .small-padding {
+    padding: 0 1em;
+}
+.vodhistory .small-padding {
+    padding: 0 1em;
+}
+.vodstreaming .notify-img img { 
+	margin-bottom: 2em;
+}
+.resp-left {
+	text-align: left;
+}
+.vodstreaming .notify-close-icon {
+	position: absolute;
+	top: -380px;
+    right: 15px;
+}
+.vodstreaming .notify-img img {
+	width: 25em;
+}
+.upload-img-vido .small-padding {
+    padding: 0 2em;
+}
+.upload-img-vido .pt-87 {
+    padding-top: 1.5em;
+}
+.group .small-padding {
+    padding: 0 0em;
+}
+.group .notify-img img {
+	width: 16em;
+    margin-right: 1em;
+    height: 11.8em;
+}
+.create-group .small-padding {
+    padding: 0 1em;
+}
+.vodrevenue .small-padding {
+    padding: 0 0em;
+}
+.view-group .btn.btn-group {
+	margin-bottom: 2em;
+}
+.invoice .invoice-image img {
+	margin-bottom: 2em;
+}
+.display-flex-row {
+	display: block
+}
+.refer-table .align-right{
+	text-align: left!important;
+}
+}
+
+/* Medium Devices, */
+@media (min-width : 992px) and (max-width: 1199px){
+.refferral-sec .refer-box p{
+	font-size: 0.8em!important;
+}
+.top-spacing{
+	margin-top: 70px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 50%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+/* .bottomheight{
+	height: 65px;
+} */
+.sec-padding{
+	padding: 30px 60px;
+}
+.left-right-padding{
+	padding: 0px 100px 0 85px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	margin-top:-39px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+.nav-tabs.home-sec-tab>li {
+	padding: 0em 3.56em;
+}
+.col-md-offset-2 {
+    margin-left:unset;
+}
+.sec-padding {
+    padding: 30px 40px;
+}
+.spacing {
+    padding: 10px 12px;
+}
+.h4-s {
+    font-size: 12px;
+}
+.btn-follow {
+	font-size: 11px;
+}
+.following .small-padding {
+    padding: 0 1em;
+}
+.top-bottom-spacing {
+    padding: 40px 30px;
+}
+.redeems-promo .redeems-sec {
+	margin-bottom: 20px;
+}
+.upload-img-vido .user-profile1 {
+    width: 324px;
+    height: 200px;
+}
+.upload-img-vido .pt-86 {
+	padding-bottom: 1em;
+}
+.vodstreaming .notify-img img {
+    width: 17em;
+    height: 14.8em;
+}
+.footer {
+	padding: 2em 7em;
+}
+}
+
+/* Desktops */
+@media only screen and (min-width : 1200px) {
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 40%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+/* .bottomheight{
+	height: 65px;
+} */
+.sec-padding{
+	padding: 40px 60px;
+	/* padding-bottom: 0; */
+}
+.left-right-padding{
+	padding: 0px 100px 0 85px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	/* margin-top:-39px; */
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	transform: translate(0px, 153px);
+}
+.ribbon-1 {
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	transform: translate(0px, -39px);
+	position: absolute;
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 20px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+	/* margin-right: 20px; */
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.hide-md {
+		display: none!important;
+	}
+	.Spacer-15 {
+		height: 30px;
+	}
+	.Spacer-20 {
+		height: 40px;
+	}
+	.Spacer-10 {
+		height: 20px;
+	}
+	.payment-form .text-right {
+		text-align: center;
+	}
+}
+
